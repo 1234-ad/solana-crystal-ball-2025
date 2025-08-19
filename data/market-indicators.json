@@ -1,0 +1,93 @@
+{
+  "timestamp": "2025-08-19T14:32:00Z",
+  "sol_metrics": {
+    "current_price": 168.50,
+    "market_cap": 78400000000,
+    "circulating_supply": 465000000,
+    "24h_volume": 2100000000,
+    "24h_change": 2.8,
+    "7d_change": 8.5,
+    "30d_change": 15.2
+  },
+  "technical_indicators": {
+    "rsi_14": 58.3,
+    "macd": {
+      "signal": 1.2,
+      "histogram": 0.8,
+      "trend": "bullish"
+    },
+    "moving_averages": {
+      "ma_20": 155.2,
+      "ma_50": 148.7,
+      "ma_200": 135.4
+    },
+    "bollinger_bands": {
+      "upper": 175.8,
+      "middle": 162.3,
+      "lower": 148.8,
+      "position": "upper_half"
+    },
+    "support_resistance": {
+      "immediate_support": 165,
+      "strong_support": 155,
+      "immediate_resistance": 175,
+      "strong_resistance": 185
+    }
+  },
+  "on_chain_metrics": {
+    "active_addresses": 1250000,
+    "transaction_count": 45000000,
+    "staking_ratio": 0.68,
+    "validator_count": 1850,
+    "network_utilization": 0.75,
+    "fee_revenue_24h": 2500000
+  },
+  "defi_metrics": {
+    "total_value_locked": 8200000000,
+    "dex_volume_24h": 890000000,
+    "lending_volume": 1200000000,
+    "active_protocols": 145,
+    "new_protocols_30d": 12
+  },
+  "sentiment_indicators": {
+    "fear_greed_index": 65,
+    "social_sentiment": 72,
+    "google_trends": 85,
+    "reddit_sentiment": 68,
+    "twitter_sentiment": 74,
+    "institutional_sentiment": 78
+  },
+  "derivatives_data": {
+    "put_call_ratio": 0.65,
+    "funding_rate": 0.0002,
+    "open_interest": 890000000,
+    "options_skew": "slight_call_bias",
+    "futures_basis": 0.021
+  },
+  "macro_environment": {
+    "btc_correlation": 0.72,
+    "eth_correlation": 0.68,
+    "nasdaq_correlation": 0.45,
+    "dxy_correlation": -0.32,
+    "vix": 18.5
+  },
+  "prediction_inputs": {
+    "technical_score": 75,
+    "fundamental_score": 78,
+    "sentiment_score": 70,
+    "macro_score": 69,
+    "weighted_average": 73.4,
+    "confidence_level": 75
+  },
+  "price_scenarios": {
+    "bearish": 160,
+    "base_case": 185,
+    "bullish": 210,
+    "probability_distribution": {
+      "below_160": 0.10,
+      "160_180": 0.25,
+      "180_200": 0.45,
+      "above_200": 0.20
+    }
+  }
+}
